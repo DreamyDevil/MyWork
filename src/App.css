@@ -1,38 +1,69 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato',sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home,
+.songs,
+.playlists,
+.radio,
+.support{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.home{
+    background-image:url('/src/images/imgHome.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color: #fff;
+    font-size: 100px;
+    height: 6.62em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.radio{
+    background-image:url('/src/images/imgRadio.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color: #fff;
+    font-size: 100px;
+    height: 6.62em;
 }
 
-.App-link {
-  color: #61dafb;
+.playlists{
+    background-image:url('/src/images/imgPlaylists.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color: #fff;
+    font-size: 100px;
+    height: 6.62em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.songs{
+    background-image:url('/src/images/imgSongs.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color: #fff;
+    font-size: 100px;
+    height: 6.62em;
+}
+
+.support{
+    background-image:url('/src/images/imgSupport.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+    color: #fff;
+    font-size: 100px;
+    height: 6.62em;
 }
