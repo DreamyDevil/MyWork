@@ -4,7 +4,7 @@ import {BrowserRouter as Router,Switch,Route} from 'react-router-dom';
 import Home from './components/pages/Home'
 import Songs from './components/pages/Songs'
 import Playlists from './components/pages/Playlists'
-import Radio from './components/pages/Radio'
+import Radio from './components/pages/RadioPage/Radio'
 import Support from './components/pages/Support'
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
   return (
      <>
        <Router>
-         <Navbar />
+        <Navbar />
            <Switch>
              <Route path='/' exact component={Home} />
              <Route path='/songs'  component={Songs} />

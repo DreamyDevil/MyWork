@@ -7,16 +7,8 @@
     font-family: 'Lato',sans-serif;
 }
 
-.home,
-.songs,
-.playlists,
-.radio,
-.support{
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-}
+
+
 
 .home{
     background-image:url('/src/images/imgHome.jpg');
@@ -25,18 +17,23 @@
     background-size:cover;
     color: #fff;
     font-size: 100px;
-    height: 6.62em;
+    height:6.71em;
+    
+    
 }
 
 .radio{
-    background-image:url('/src/images/imgRadio.jpg');
+    background-color: #151414;;
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
-    color: #fff;
     font-size: 100px;
-    height: 6.62em;
+    height: 6.71em;
+    
+    
 }
+
+
 
 .playlists{
     background-image:url('/src/images/imgPlaylists.jpg');
@@ -45,7 +42,7 @@
     background-size:cover;
     color: #fff;
     font-size: 100px;
-    height: 6.62em;
+    height: 6.71em;
 }
 
 .songs{
@@ -55,7 +52,7 @@
     background-size:cover;
     color: #fff;
     font-size: 100px;
-    height: 6.62em;
+    height: 6.71em;
 }
 
 .support{
@@ -65,5 +62,8 @@
     background-size:cover;
     color: #fff;
     font-size: 100px;
-    height: 6.62em;
+    height: 6.71em;
+}
+
+p{
 }

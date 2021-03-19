@@ -1,0 +1,41 @@
+.slider {
+    position: relative;
+    height: 250px;
+    display: flex;
+    border: 1px solid blue;
+    
+    
+}
+
+.image{
+   width: 625px;
+   height: 250px;
+   border-radius: 10px;
+   border: 1px solid rgb(131, 15, 20) 
+   
+}
+
+.right-arrow{
+    position: absolute;
+    top: 50%;
+    right: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+   cursor: pointer;
+   user-select: none;
+}
+
+.left-arrow{
+    position: absolute;
+    top: 50%;
+    left: 32px;
+    font-size: 3rem;
+    color: #000;
+    z-index: 10;
+   cursor: pointer;
+   user-select: none;
+}
+
+
+
