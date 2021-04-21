@@ -16,7 +16,7 @@
     min-width: 41%;
     height: 34vh;
     position:relative;
-    transition: 0.5s;
+    transition: 1.8s;
     margin:0px 10px 0px 16px;
     border-radius: 10px;
     overflow: hidden;
@@ -58,7 +58,10 @@
     background-color: rgba(0,0,0, 0.6) ;
 }
 
-.lo{
-    width: 100px;
-    height: 100px;
+.radio-top-news{
+    background-color: #363a43;
+}
+
+.radio-top-allRadio{
+    background-color: #363a43;
 }

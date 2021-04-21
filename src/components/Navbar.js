@@ -5,7 +5,8 @@ import { Link } from 'react-router-dom';
 import { SidebarData } from './SidebarData';
 import './Navbar.css';
 import { IconContext } from 'react-icons';
-import Logo from './pages/RadioPage/image/logo.png';
+import Logo from './pages/RadioPage/image/Logo1.png';
+import SignUp from './Sign Up/SignUp';
 
 
 function Navbar() {
@@ -21,9 +22,10 @@ function Navbar() {
                         </Link>
                     </IconContext.Provider>
                         <Link to='#' className='logo'>
-                            <img src={Logo} width="110" alt="" />
-                            <h2>New</h2><h3>Wave</h3>
+                            <img src={Logo} width="195" alt="" />
                         </Link>
+                    <SignUp/>
+                    
                 </div>
           
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>

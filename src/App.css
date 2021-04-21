@@ -12,23 +12,24 @@
 
 .home{
     background-image:url('/src/images/imgHome.jpg');
-    background-repeat: no-repeat;
+    
     background-position:center;
     background-size:cover;
     color: #fff;
     font-size: 100px;
-    height:6.71em;
+    height:100.71em;
     
     
 }
 
 .radio{
-    background-color: #151414;;
+    background-image:url('/src/components/pages/RadioPage/image/Kolaj.jpg');
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
     font-size: 100px;
-    height: 6.71em;
+    height: auto;
     
     
 }

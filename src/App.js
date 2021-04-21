@@ -14,7 +14,7 @@ function App() {
        <Router>
         <Navbar />
            <Switch>
-             <Route path='/' exact component={Home} />
+             <Route path='/home' exact component={Home} />
              <Route path='/songs'  component={Songs} />
              <Route path='/playlists' component={Playlists} />
              <Route path='/radio'  component={Radio} />
@@ -24,5 +24,6 @@ function App() {
      </>
   );
 }
+
 
 export default App;
