@@ -17,7 +17,7 @@ export const RootStore$ = types.model('RootStore$', {
         requestGoogle: flow(function* () {
 
             try {
-                const res = yield axios.get(`https://google-search3.p.rapidapi.com/api/v1/search/q=${ self.query_param_google }$num=10`, {
+                const res = yield axios.get(`https://google-search3.p.rapidapi.com/api/v1/search/q=${ self.query_param_google }$num=1`, {
                     headers: {
                         'x-rapidapi-key': '38bbfffe19msh1057a455dc9d030p19a5a6jsn9e240dd0ec5f',
                         'x-rapidapi-host': 'google-search3.p.rapidapi.com'

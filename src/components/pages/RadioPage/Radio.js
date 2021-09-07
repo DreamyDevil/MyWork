@@ -17,7 +17,7 @@ function Radio() {
                 <p>Your favorite Russian songs are always with you!</p>
             </div>
             <div className='radio-bottom'>
-                
+                <p>News</p>
             </div>
         </div>
     )

@@ -86,3 +86,15 @@
     border: 1px solid blueviolet;
     height: 300px;
 }
+
+.radio-bottom p{
+    margin:40px;
+    bottom: 45px;
+    font-size: 26px;
+    font-family:PFDinTextPro,sans-serif;
+    text-decoration: none;
+    color: #c9c9c9;
+    position: relative;
+}
+
+

@@ -12,12 +12,12 @@
 
 .home{
     background-image:url('/src/images/imgHome.jpg');
-    
+    background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
     color: #fff;
     font-size: 100px;
-    height:100.71em;
+    height: 6.71em;
     
     
 }
@@ -56,7 +56,7 @@
     height: 6.71em;
 }
 
-.support{
+.support-top{
     background-image:url('/src/images/imgSupport.jpg');
     background-repeat: no-repeat;
     background-position:center;
@@ -64,7 +64,4 @@
     color: #fff;
     font-size: 100px;
     height: 6.71em;
-}
-
-p{
 }
